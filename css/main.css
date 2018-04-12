@@ -1,0 +1,31 @@
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background-color: #1b1921;
+  font-family: 'Nunito', sans-serif;
+}
+
+nav {
+  color: #fff;
+}
+
+.white {
+  color: #fff;
+}
+
+.no-line {
+  text-decoration: none;
+}
+
+.blue:hover {
+  color: #43469d;
+}
+
+.btn {
+  background-color: #fff;
+  color: #301289;
+  border-radius: 15px;
+  border: none;
+}
