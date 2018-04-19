@@ -37,6 +37,7 @@ nav {
   color: #fff;
   border-radius: 15px;
   border-color: #301289;
+  font-family: Nunito, sans-serif;
 }
 
 .sign-up {
@@ -57,8 +58,14 @@ nav {
   border-color: #fff;
 }
 
-table {
-  border-collapse: collapse;
+.login:hover {
+  background-color: #fff;
+  border-color: #000;
+  color: #301289;
+}
+
+.white-btn:hover {
+  background-color: #272562;
 }
 
 .card {
@@ -67,4 +74,28 @@ table {
   border-style: solid;
   border-width: 8px;
   border-radius: 20px;
+}
+
+.card-purple {
+  background-color: #272562;
+  color: #fff;
+  border-style: solid;
+  border-color: #272562;
+  border-radius: 15px;
+}
+
+.card-white {
+  background-color: #fff;
+  color: #000;
+  border-style: solid;
+  border-color: #272562;
+  border-radius: 15px;
+}
+
+form {
+  color: #000;
+}
+
+.cyan {
+  color: #0ff;
 }
