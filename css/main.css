@@ -50,3 +50,20 @@ nav {
   background-color: #1b1921;
   border-color: #fff;
 }
+
+.nav {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #43469d;
+}
+
+[type="checkbox"] + label::before {
+  height: 0;
+  border: 0;
+}
