@@ -46,7 +46,23 @@ nav {
   border-color: #fff;
 }
 
+.select {
+  background-color: #fff;
+  color: #301289;
+  border-color: #fff;
+}
+
 .btn:hover {
   background-color: #1b1921;
   border-color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.card {
+  background-color: #272562;
+  border-radius: 15px;
+  color: #fff;
 }
