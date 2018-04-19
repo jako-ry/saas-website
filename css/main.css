@@ -54,7 +54,11 @@ nav {
 }
 
 .btn:hover {
-  background-color: #1b1921;
+  background-color: #43469d;
+  border-color: #43469d;
+}
+
+.select:hover {
   border-color: #fff;
 }
 
@@ -66,6 +70,7 @@ nav {
 
 .white-btn:hover {
   background-color: #272562;
+  border-color: #fff;
 }
 
 .card {
@@ -104,6 +109,10 @@ a:focus {
   outline: 3px solid #43469d;
 }
 
-nav:focus {
-  background-color: #43469d;
+@media only screen and (min-width: 38em) {
+
+  .right {
+    text-align: right;
+  }
+
 }
