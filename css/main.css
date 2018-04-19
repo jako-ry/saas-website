@@ -99,3 +99,7 @@ form {
 .cyan {
   color: #0ff;
 }
+
+a:focus {
+  outline: 3px solid #43469d;
+}
