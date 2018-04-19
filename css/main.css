@@ -63,6 +63,8 @@ table {
 
 .card {
   background-color: #272562;
-  border-radius: 15px;
   color: #fff;
+  border-style: solid;
+  border-width: 8px;
+  border-radius: 20px;
 }
