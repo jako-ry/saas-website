@@ -103,3 +103,7 @@ form {
 a:focus {
   outline: 3px solid #43469d;
 }
+
+nav:focus {
+  background-color: #43469d;
+}
