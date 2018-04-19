@@ -1,0 +1,34 @@
+<header>
+  <nav role="navigation">
+    <input type="checkbox" class="nav-check" id="nav-check">
+    <label class="nav-label" for="nav-check">
+      <img src="images/nav-open.svg" alt="Open Navigation">
+    </label>
+      <ul class="nav list-group">
+        <li><a class="no-line white blue" href="tour.html">Features</a></li>
+        <li><a class="no-line white blue" href="pricing.html">Pricing</a></li>
+        <li><a class="no-line white blue" href="sign-up.html">Sign up</a></li>
+      </ul>
+  </nav>
+</header>
+
+.nav {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  background-color: #1b1921;
+  display: block;
+}
+
+.nav-check {
+  display: hidden;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #1b1921;
+}
+
+.nav-label {
+  cursor: pointer;
+}

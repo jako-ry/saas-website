@@ -7,6 +7,10 @@ header {
   font-family: 'Nunito', sans-serif;
 }
 
+article {
+  background-color: #1b1921;
+}
+
 nav {
   color: #fff;
 }
@@ -24,8 +28,24 @@ nav {
 }
 
 .btn {
+  background-color: #301289;
+  color: #fff;
+  border-radius: 15px;
+  border-color: #301289;
+}
+
+.sign-up {
   background-color: #fff;
   color: #301289;
   border-radius: 15px;
-  border: none;
+  border-color: #fff;
+}
+
+.btn:hover {
+  background-color: #1b1921;
+  border-color: #fff;
+}
+
+.step {
+  max-height: 50px;
 }
