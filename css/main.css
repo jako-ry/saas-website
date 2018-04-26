@@ -115,11 +115,6 @@ th {
 
 @media only screen and (min-width: 25em) {
 
-  form {
-    padding-left: .5em;
-    padding-right: .5em;
-  }
-
   caption {
     text-align: center;
   }
@@ -130,11 +125,6 @@ th {
 
   .right {
     text-align: right;
-  }
-
-  form {
-    padding-left: 1em;
-    padding-right: 1em;
   }
 
 }
