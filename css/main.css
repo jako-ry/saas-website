@@ -124,11 +124,6 @@ th {
     text-align: center;
   }
 
-  .select {
-    padding-left: 4em;
-    padding-right: 4em;
-  }
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -140,20 +135,6 @@ th {
   form {
     padding-left: 1em;
     padding-right: 1em;
-  }
-
-  .select {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-  }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-  .select {
-    padding-left: 4em;
-    padding-right: 4em;
   }
 
 }
